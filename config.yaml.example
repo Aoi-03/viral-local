@@ -1,0 +1,59 @@
+# Viral-Local Configuration File
+# Copy this file to config.yaml and add your API keys
+
+# Required API Configuration
+gemini_api_key: "AIzaSyBdtxvUNwa_k61b5bVql4Sg3fqCdzmGOuc"  # Your Gemini API key
+groq_api_key: "your_groq_api_key_here"     # Optional, get from Groq Console
+
+# Model Settings
+whisper_model_size: "base"    # Options: tiny, base, small, medium, large
+tts_engine: "edge-tts"        # Options: edge-tts, kokoro-82m
+
+# Processing Limits
+max_video_duration: 1800      # 30 minutes in seconds
+max_concurrent_requests: 3
+max_file_size_mb: 500
+
+# Quality Settings
+target_audio_quality: "high"  # Options: low, medium, high
+video_output_format: "mp4"
+audio_sample_rate: 22050
+
+# Language Support
+supported_languages: ["hi", "bn", "ta"]  # Hindi, Bengali, Tamil
+default_target_language: "hi"
+
+# Directory Settings
+temp_dir: "temp"
+output_dir: "output"
+cache_dir: "cache"
+
+# Logging Configuration
+log_level: "INFO"             # Options: DEBUG, INFO, WARNING, ERROR
+log_file: "viral_local.log"
+enable_file_logging: true
+
+# Performance Settings
+enable_gpu: false             # Set to true if you have CUDA GPU
+batch_size: 16
+cache_enabled: true
+cache_max_size_mb: 1000
+max_memory_mb: 2000
+
+# Retry Settings
+max_retries: 3
+retry_delay: 1.0
+exponential_backoff: true
+
+# Rate Limiting Settings
+api_requests_per_minute: 60
+api_requests_per_hour: 1000
+
+# Circuit Breaker Settings
+circuit_breaker_failure_threshold: 5
+circuit_breaker_recovery_timeout: 60.0
+
+# Error Recovery Settings
+enable_error_recovery: true
+error_log_max_files: 10
+error_log_max_size_mb: 50

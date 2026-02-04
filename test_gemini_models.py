@@ -6,7 +6,7 @@ Test script to check available Gemini models.
 import google.generativeai as genai
 
 # Configure with your API key
-genai.configure(api_key="AIzaSyBdtxvUNwa_k61b5bVql4Sg3fqCdzmGOuc")
+genai.configure(api_key="YOUR_API")
 
 print("Available Gemini models:")
 try:

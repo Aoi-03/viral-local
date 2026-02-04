@@ -1,0 +1,17 @@
+gemini_api_key: "test_api_key_for_validation_12345"
+groq_api_key: "test_groq_key_12345"
+whisper_model_size: "base"
+tts_engine: "edge-tts"
+max_video_duration: 1800
+max_concurrent_requests: 3
+target_audio_quality: "high"
+video_output_format: "mp4"
+supported_languages: ["hi", "bn", "ta"]
+default_target_language: "hi"
+temp_dir: "temp"
+output_dir: "output"
+cache_dir: "cache"
+log_level: "INFO"
+enable_file_logging: true
+enable_gpu: false
+cache_enabled: true

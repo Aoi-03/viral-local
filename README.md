@@ -1,19 +1,19 @@
-# 🎬 Viral-Local
+# Viral-Local
 
 Automated Video Localization System for Indian Languages
 
 Transform your YouTube videos into multiple Indian languages with AI-powered dubbing!
 
-## ✨ Features
+## Features
 
-- 🎯 **Intelligent Viral Segment Detection** - AI identifies the most engaging parts of your content
-- 🗣️ **Natural Text-to-Speech Generation** - High-quality voice synthesis with Edge-TTS
-- 🎵 **Audio-Video Synchronization** - Precise timing alignment for natural playback
-- 🌍 **Multi-Language Support** - Hindi, Bengali, and Tamil localization
-- 🖥️ **Dual Interface** - Both command-line and web interfaces available
-- ⚡ **GPU Acceleration** - Faster processing with CUDA support
+- **Intelligent Viral Segment Detection** - AI identifies the most engaging parts of your content
+- **Natural Text-to-Speech Generation** - High-quality voice synthesis with Edge-TTS
+- **Audio-Video Synchronization** - Precise timing alignment for natural playback
+- **Multi-Language Support** - Hindi, Bengali, and Tamil localization
+- **Dual Interface** - Both command-line and web interfaces available
+- **GPU Acceleration** - Faster processing with CUDA support
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -41,7 +41,7 @@ cp config.yaml.example config.yaml
 # Edit config.yaml and add your API keys
 ```
 
-## 🖥️ Usage
+## Usage
 
 ### Command Line Interface
 
@@ -84,12 +84,12 @@ streamlit run viral_local/web_app.py
 ```
 
 The web interface provides:
-- 📱 Intuitive URL input and language selection
-- 📊 Real-time progress tracking
-- ⚙️ Configuration management
-- 📥 Direct video download
+- Intuitive URL input and language selection
+- Real-time progress tracking
+- Configuration management
+- Direct video download
 
-## 🌍 Supported Languages
+## Supported Languages
 
 | Language | Code | Script |
 |----------|------|--------|
@@ -97,7 +97,7 @@ The web interface provides:
 | Bengali | `bn` | বাংলা |
 | Tamil | `ta` | தமிழ் |
 
-## ⚙️ Configuration
+## Configuration
 
 The system uses YAML configuration files. Key settings:
 
@@ -119,7 +119,7 @@ enable_gpu: true
 cache_enabled: true
 ```
 
-## 🔧 System Requirements
+## System Requirements
 
 ### Minimum Requirements
 - **CPU**: 4+ cores recommended
@@ -132,7 +132,7 @@ cache_enabled: true
 - **RAM**: 32GB for processing longer videos
 - **CPU**: 8+ cores for faster transcription
 
-## 📊 Processing Pipeline
+## Processing Pipeline
 
 1. **Download & Extract** - Downloads YouTube video and extracts audio
 2. **Transcription** - Uses Whisper AI for speech-to-text conversion
@@ -141,7 +141,7 @@ cache_enabled: true
 5. **Speech Generation** - Edge-TTS creates natural-sounding localized audio
 6. **Video Assembly** - MoviePy merges localized audio with original video
 
-## 🛠️ Development
+## Development
 
 ### Running Tests
 
@@ -173,7 +173,7 @@ viral_local/
 └── utils/            # Utilities and error handling
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -202,15 +202,15 @@ viral_local/
 3. Use `--validate` to check system configuration
 4. Ensure all dependencies are properly installed
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI Whisper for speech recognition
 - Google Gemini for AI-powered translation

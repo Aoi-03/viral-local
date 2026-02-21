@@ -1,6 +1,6 @@
 # Viral-Local
 
-Automated Video Localization System for Indian Language etc.
+Automated Video Localization System for Indian Language etc
 
 Transform your YouTube videos into multiple Indian languages with AI-powered dubbing!
 
